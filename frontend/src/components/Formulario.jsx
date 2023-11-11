@@ -19,7 +19,7 @@ const Formulario = () => {
             setNombre(paciente.nombre)
             setPropietario(paciente.propietario)
             setEmail(paciente.email)
-            setFecha(paciente.fecha)
+            setFecha(new Date(paciente.fecha).toISOString().split('T')[0]);
             setSintomas(paciente.sintomas)
             setId(paciente._id)
         }
