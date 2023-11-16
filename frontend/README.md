@@ -1,0 +1,7 @@
+Hola mi nombre es Juan Thomas Reyes Bodo acá esta la descripción de mi proyecto final de Digitalers, es un administrador de pacientes de veterinaria (APV)  la cual cuenta con un área publica en la cual un usuario de puede registrar, iniciar sesión y recuperar su password , en la parte de crear cuenta se le pide al usuario su nombre, email y el password que va a usar, luego se el enviá un email para confirmar su cuenta para hacer el envió de email use la  plataforma Mailtrap (nodemailer), luego en la parte de olvide password le pedimos la usuario su email para enviar un link para recuperar su acceso al aplicación, ya en la parte de login una vez que el usuario ya tiene su cuenta confirmada se genera un JWT para poder darle al acceso a al área privada en la cual podrá  cargar sus pacientes los cuales el solo podrá modificar o eliminar (CRUD completo) también probar modificar su perfil agregando una pagina web y un teléfono o si desea cambiar el email o le nombre, también puede cambiar su password. También la parte superior de la barra esta la opción de cerrar sesión.
+Todos los formularios tanto del área publica como privada tienen validación tanto en el frontend como el parte del servidor y las password almacenadas en la base de datos son hasheadas y no se pueden revertir esa cadena.
+Tecnologías usadas: React, Node, Bcrypt, Dotenv, Express, Jsonwebtoken, Mongoose, Nodemailer, Tailwindcss.
+
+
+email: correo@correo.com	
+password: 1234567
